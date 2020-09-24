@@ -110,6 +110,8 @@ The resulting image will be generated in the `build/image` and output generated 
 		2>&1 | tee minimizeclasses.out
 ```
 
+_Note: If running on Windows, you may need to use `-J--module-path=';build/plugin'` and `-J--add-modules='jmin.jlink'` instead_
+
 ### View the output in minimizeclasses.out
 Here's a sample of what the first few lines of output look like:
 ```
